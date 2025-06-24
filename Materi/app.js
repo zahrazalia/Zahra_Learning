@@ -248,23 +248,6 @@ const genreData = {
         "Zat Adiktif Lainnya - Nikotin, Alkohol, Lem aibon, Kafein berlebihan",
       ],
     },
-    misteri: {
-      title: "🔍 Genre Misteri",
-      description:
-        "Misteri adalah genre yang berfokus pada pemecahan teka-teki, kejahatan, atau peristiwa yang tidak dapat dijelaskan dengan mudah.",
-      characteristics: [
-        "Mengandung teka-teki atau kejahatan yang harus dipecahkan",
-        "Memiliki suspense dan ketegangan",
-        "Sering melibatkan detektif atau investigator",
-        "Pembaca diajak untuk ikut memecahkan misteri",
-      ],
-      types: [
-        "Detective Fiction - fokus pada detektif yang memecahkan kasus",
-        "Cozy Mystery - misteri ringan tanpa kekerasan eksplisit",
-        "Hard Boiled - misteri dengan suasana gelap dan keras",
-        "Psychological Thriller - fokus pada aspek psikologis",
-      ],
-    },
   };
 
   function openGenreModal(genreType) {
