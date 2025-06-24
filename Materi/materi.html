@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materi Genre - Zahra's Learning Hub</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-content">
+        <div class="logo">📚 Zahra's Learning Hub</div>
+        <a href="javascript:history.back()" class="back-btn">
+          <span>←</span> Kembali
+        </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 class="page-title">Materi Genre</h1>
+      <p class="page-subtitle">Pelajari berbagai jenis materi</p>
+
+      <div class="genre-grid">
+        <div class="genre-card" onclick="openGenreModal('seksbebas')">
+          <span class="genre-icon">🚫</span>
+          <h3 class="genre-title">Seks Bebas</h3>
+          <p class="genre-description">
+            Seks di luar nikah tanpa tanggung jawab dan perlindungan.
+          </p>
+          <div class="genre-examples">
+            <strong>Contoh:</strong>
+            Kehamilan tidak diinginkan, PMS, trauma psikologis, putus sekolah
+          </div>
+        </div>
+
+        <div class="genre-card" onclick="openGenreModal('HIV')">
+          <span class="genre-icon">🦠</span>
+          <h3 class="genre-title">HIV/AIDS</h3>
+          <p class="genre-description">
+            HIV melemahkan sistem imun dan tanpa penanganan berkembang menjadi
+            AIDS dengan infeksi berat.
+          </p>
+          <div class="genre-examples">
+            <strong>Contoh:</strong>
+            Cara Penularan, Gejala, Pencegahan, Dampak, Fakta Penting
+          </div>
+        </div>
+
+        <div class="genre-card" onclick="openGenreModal('pup')">
+          <span class="genre-icon">⏰</span>
+          <h3 class="genre-title">Pendewasaan Usia Perkawinan</h3>
+          <p class="genre-description">
+            Pendewasaan Usia Perkawinan (PUP) adalah upaya agar remaja menikah
+            pada usia yang matang, dengan kesiapan fisik, mental, dan ekonomi.
+          </p>
+          <div class="genre-examples">
+            <strong>Contoh:</strong>
+            Menunda menikah sampai lulus sekolah, aktif di PIK-R, dan
+            merencanakan masa depan dengan matang.
+          </div>
+        </div>
+
+        <div class="genre-card" onclick="openGenreModal('lifeskills')">
+          <span class="genre-icon">🌟</span>
+          <h3 class="genre-title">Life Skill</h3>
+          <p class="genre-description">
+            Life skill adalah kemampuan remaja untuk mandiri, percaya diri, dan
+            siap menghadapi tantangan hidup.
+          </p>
+          <div class="genre-examples">
+            <strong>Contoh:</strong>
+            Mengelola emosi, komunikasi efektif, perencanaan karier
+          </div>
+        </div>
+
+        <div class="genre-card" onclick="openGenreModal('napza')">
+          <span class="genre-icon">⚠️</span>
+          <h3 class="genre-title">NAPZA</h3>
+          <p class="genre-description">
+            Zat yang memengaruhi saraf pusat dan menyebabkan ketergantungan.
+          </p>
+          <div class="genre-examples">
+            <strong>Contoh:</strong>
+            Morfin, Heroin, Ekstasi, Alkohol, Nikotin
+          </div>
+        </div>
+
+        <div class="genre-card" onclick="openGenreModal('misteri')">
+          <span class="genre-icon">🔍</span>
+          <h3 class="genre-title">Misteri</h3>
+          <p class="genre-description">
+            Genre yang berfokus pada pemecahan teka-teki, kejahatan, atau
+            peristiwa yang tidak dapat dijelaskan.
+          </p>
+          <div class="genre-examples">
+            <strong>Contoh:</strong>
+            Detective stories, thriller, suspense
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="genreModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="modalContent"></div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
